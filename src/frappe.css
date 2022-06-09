@@ -1,0 +1,25 @@
+@import "@catppuccin/palette/style";
+
+[color-scheme="frappe"] {
+    --brand: var(--brand-frappe);
+
+    --text1: var(--text1-frappe);
+    --text2: var(--text2-frappe);
+
+    --surface1: var(--surface1-frappe);
+    --surface2: var(--surface2-frappe);
+    --surface3: var(--surface3-frappe);
+    --surface4: var(--surface4-frappe);
+}
+
+html {
+    --brand-frappe: var(--ctp-frappe-blue);
+
+    --text1-frappe: var(--ctp-frappe-text);
+    --text2-frappe: var(--ctp-frappe-subtext1);
+
+    --surface1-frappe: var(--ctp-frappe-base);
+    --surface2-frappe: var(--ctp-frappe-surface0);
+    --surface3-frappe: var(--ctp-frappe-surface1);
+    --surface4-frappe: var(--ctp-frappe-surface2);
+}
