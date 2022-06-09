@@ -1,0 +1,25 @@
+@import "@catppuccin/palette/style";
+
+[color-scheme="macchiato"] {
+    --brand: var(--brand-macchiato);
+
+    --text1: var(--text1-macchiato);
+    --text2: var(--text2-macchiato);
+
+    --surface1: var(--surface1-macchiato);
+    --surface2: var(--surface2-macchiato);
+    --surface3: var(--surface3-macchiato);
+    --surface4: var(--surface4-macchiato);
+}
+
+html {
+    --brand-macchiato: var(--ctp-macchiato-blue);
+
+    --text1-macchiato: var(--ctp-macchiato-text);
+    --text2-macchiato: var(--ctp-macchiato-subtext1);
+
+    --surface1-macchiato: var(--ctp-macchiato-base);
+    --surface2-macchiato: var(--ctp-macchiato-surface0);
+    --surface3-macchiato: var(--ctp-macchiato-surface1);
+    --surface4-macchiato: var(--ctp-macchiato-surface2);
+}
