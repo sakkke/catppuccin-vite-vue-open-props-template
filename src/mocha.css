@@ -1,0 +1,25 @@
+@import "@catppuccin/palette/style";
+
+[color-scheme="mocha"] {
+    --brand: var(--brand-mocha);
+
+    --text1: var(--text1-mocha);
+    --text2: var(--text2-mocha);
+
+    --surface1: var(--surface1-mocha);
+    --surface2: var(--surface2-mocha);
+    --surface3: var(--surface3-mocha);
+    --surface4: var(--surface4-mocha);
+}
+
+html {
+    --brand-mocha: var(--ctp-mocha-blue);
+
+    --text1-mocha: var(--ctp-mocha-text);
+    --text2-mocha: var(--ctp-mocha-subtext1);
+
+    --surface1-mocha: var(--ctp-mocha-base);
+    --surface2-mocha: var(--ctp-mocha-surface0);
+    --surface3-mocha: var(--ctp-mocha-surface1);
+    --surface4-mocha: var(--ctp-mocha-surface2);
+}
