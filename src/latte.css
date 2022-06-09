@@ -1,0 +1,25 @@
+@import "@catppuccin/palette/style";
+
+[color-scheme="latte"] {
+    --brand: var(--brand-latte);
+
+    --text1: var(--text1-latte);
+    --text2: var(--text2-latte);
+
+    --surface1: var(--surface1-latte);
+    --surface2: var(--surface2-latte);
+    --surface3: var(--surface3-latte);
+    --surface4: var(--surface4-latte);
+}
+
+html {
+    --brand-latte: var(--ctp-latte-blue);
+
+    --text1-latte: var(--ctp-latte-text);
+    --text2-latte: var(--ctp-latte-subtext1);
+
+    --surface1-latte: var(--ctp-latte-base);
+    --surface2-latte: var(--ctp-latte-surface0);
+    --surface3-latte: var(--ctp-latte-surface1);
+    --surface4-latte: var(--ctp-latte-surface2);
+}
